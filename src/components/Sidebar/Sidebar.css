@@ -1,0 +1,15 @@
+.sidebar {
+  color: inherit;
+}
+
+.sidebar__nav {
+}
+
+.sidebar__list {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar__link {
+  color: inherit;
+}
