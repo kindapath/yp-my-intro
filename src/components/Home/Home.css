@@ -1,4 +1,32 @@
 .homepage {
   display: flex;
+  flex-direction: column;
   width: 100%;
+  box-sizing: border-box;
+  padding: 100px;
+}
+
+.homepage__bio {
+  width: 60%;
+}
+
+.homepage__heading {
+  margin-top: 0;
+  margin-bottom: 28px;
+  text-align: start;
+  width: 100%;
+}
+
+.homepage__text {
+  text-align: start;
+  max-width: 100%;
+  margin-bottom: 14px;
+  margin-top: 0;
+
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 34px;
+}
+.homepage__text:last-of-type {
+  margin-bottom: 0;
 }
