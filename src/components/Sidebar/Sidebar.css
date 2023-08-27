@@ -1,5 +1,11 @@
 .sidebar {
-  color: inherit;
+  height: 100vh;
+  width: 150px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  padding-top: 40px;
+  background-color: #adc4ce;
 }
 
 .sidebar__nav {
