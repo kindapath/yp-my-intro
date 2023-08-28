@@ -1,11 +1,17 @@
 .homepage {
+  font-family: Inter;
   display: flex;
   flex-direction: column;
   width: 80%;
   box-sizing: border-box;
-  margin: 100px auto;
+  margin: 0 auto;
 }
 
+.homepage__hello {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+}
 .homepage__bio {
   display: flex;
   flex-direction: column;
@@ -33,6 +39,22 @@
   width: 100%;
 }
 
+.homepage__heading_animated {
+  animation: opacity 4s;
+}
+
+.text-orange-light {
+  color: #fff4e0;
+}
+
+.text-orange-medium {
+  color: #ffbf9b;
+}
+
+.text-orange-dark {
+  color: #b46060;
+}
+
 .homepage__text {
   text-align: justify;
   width: 100%;
@@ -58,6 +80,7 @@
   margin-top: 10px;
 
   box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+  border-radius: 15px;
 }
 
 .homepage__caption {
@@ -69,6 +92,16 @@
   line-height: 20px;
 }
 
+.homepage__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.homepage__git {
+  max-width: 40px;
+}
 .wave {
   animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
   animation-duration: 2.5s; /* Change to speed up or slow down */
@@ -101,5 +134,15 @@
   } /* Reset for the last half to pause */
   100% {
     transform: rotate(0deg);
+  }
+}
+
+@keyframes opacity {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
   }
 }

@@ -1,3 +1,6 @@
+@import url("./vendor/normalize.css");
+@import url("./vendor/fonts/fonts.css");
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -15,10 +18,10 @@
 }
 
 a {
-  font-weight: 500;
-  color: #646cff;
+  color: #ffbf9b;
   text-decoration: inherit;
 }
+
 a:hover {
   opacity: 0.8;
 }

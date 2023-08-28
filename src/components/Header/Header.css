@@ -1,0 +1,36 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  position: absolute;
+  max-width: 1024px;
+
+  top: 0;
+  right: 0;
+  padding-top: 40px;
+  background-color: transparent;
+  padding: 0;
+  margin: 50px 128px 20px auto;
+}
+
+.header__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  list-style: none;
+  padding: 0;
+  gap: 30px;
+}
+
+.header__item {
+  font-weight: medium;
+
+  font-weight: 500;
+  color: #ffbf9b;
+  font-size: 24px;
+  text-align: start;
+}
+
+.header__link {
+  color: inherit;
+}
