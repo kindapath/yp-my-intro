@@ -22,9 +22,9 @@
 }
 
 .trick__video {
+  aspect-ratio: 16/9;
   align-self: center;
-  width: 50vw;
-  height: 50vh;
+  width: 80%;
   border-radius: 15px;
   box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
 

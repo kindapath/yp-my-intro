@@ -5,18 +5,18 @@ function Trick() {
     <>
       <hr className="line" id="trick" />
       <section className="trick">
-        <h2 className="trick__heading">
+        {/* <h2 className="trick__heading">
           Фишка в <span className="text-orange-medium">CSS</span>
         </h2>
         <p className="trick__text">
           На этом видео расскажу тебе про небольшой трюк в CSS. Он поможет тебе
           писать стили быстрее.
-        </p>
+        </p> */}
         <iframe
           className="trick__video"
           id="ytplayer"
           type="text/html"
-          src="https://www.youtube.com/embed/Qhaz36TZG5Y"
+          src="https://www.youtube.com/embed/Tn6-PIqc4UM"
           frameBorder="0"
           allowfullscreen
         ></iframe>
