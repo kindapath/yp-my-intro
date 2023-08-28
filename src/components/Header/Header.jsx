@@ -13,7 +13,7 @@ function Header() {
           </li>
           <li className="header__item">
             <a className="header__link" href={`#trick`}>
-              Фишка
+              Фишки
             </a>
           </li>
           <li className="header__item">
